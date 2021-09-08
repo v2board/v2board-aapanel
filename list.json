@@ -1,0 +1,14 @@
+[
+    {
+        "success_url": "/admin",
+        "php_versions": "73,74",
+        "db_config": ".env",
+        "admin_username": "admin@v2board.com",
+        "admin_password": "v2boardisbest",
+        "run_path": "/public",
+        "php_ext": "fileinfo,redis",
+        "chmod": [],
+        "remove_file": ["/.user.ini", "/public/.user.ini"],
+        "enable_functions": ["putenv", "proc_open", "pcntl_alarm", "pcntl_signal"]
+    }
+]
