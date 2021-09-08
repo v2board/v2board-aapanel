@@ -77,7 +77,7 @@ class v2board_helper_main:
         if not os.path.exists(helperZip): return public.returnMsg(False,'File download failed!' + helperZip)
 
         #设置pinfo
-        pinfo = self.getPackageInfo(helperZip,'v2board-aapanel-master',path)
+        pinfo = self.set_temp_file(helperZip,path)
         if not pinfo: return public.returnMsg(False,'Cannot find [aaPanel Auto Deployment Configuration File] in the installation package')
 
         #下载V2board
