@@ -1,2 +1,2 @@
 download release  
-import in the bt/aapanel
+import downloaded plugin in the bt/aapanel
